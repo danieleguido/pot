@@ -1,0 +1,39 @@
+{
+  "name": "pot",
+  "description": "an express app for google scholar",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Daniele Guido",
+  "homepage": "https://github.com/danieleguido/pot",
+  "contributors": [
+    "Daniele Guido <gui.daniele@gmail.com> (https://github.com/danieleguido)"
+  ],
+  "scripts": {
+    "start": "node pot"
+  },
+  "dependencies": {
+    "express": "~3.4.7",
+    "require": "~0.5.0",
+    "request": "~2.29.0",
+    "express-hbs": "~0.5.2",
+    "i18n-node": "~2.0.16",
+    "colors": "~0.6.2"
+  },
+  "keywords": [
+    "google scholar api",
+    "google scholar json endpoint"
+  ],
+  "engines":{
+      "node":">= 0.4.0"
+   },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-uglify": "~0.2.7"
+  }
+}
