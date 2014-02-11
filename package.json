@@ -17,15 +17,16 @@
     "request": "~2.29.0",
     "express-hbs": "~0.5.2",
     "i18n-node": "~2.0.16",
-    "colors": "~0.6.2"
+    "colors": "~0.6.2",
+    "sqlite3": "~2.2.0"
   },
   "keywords": [
     "google scholar api",
     "google scholar json endpoint"
   ],
-  "engines":{
-      "node":">= 0.4.0"
-   },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
   "licenses": [
     {
       "type": "MIT",
